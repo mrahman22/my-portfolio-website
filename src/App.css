@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  font-family: 'Galada', cursive;
 }
 
 /*================ Navbar Styling =============================*/
@@ -66,10 +67,17 @@ label.logo {
 
 .showcase {
   background-color: #FAEBD7;
-  padding: 150px;
+  padding: 80px;
   text-align: center;
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
+}
+
+.portrait-pic {
+   height: 150px;
+   width: 200px;
+   border-radius: 90%;
+   border: 5px solid gray;
 }
 
 
@@ -95,9 +103,11 @@ label.logo {
 
 
 .about-me {
-   margin-top: 50px;
+   margin-top: 10px;
    width: 500px;
+   padding: 10px;
    text-align: justify;
+   border-bottom: 3px solid gray;
 }
 
 
