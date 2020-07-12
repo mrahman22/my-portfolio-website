@@ -1,15 +1,18 @@
 import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
-import Showcase from './components/Showcase';
-import AboutMe from './components/AboutMe';
+import {Router} from "@reach/router";
+import Projects from './components/Projects';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
      <Nav />
-     <Showcase />
-     <AboutMe />
+     <Router>
+      <Home path="/"/>
+     <Projects path="/projects"/>
+     </Router>
     </div>
   );
 }
