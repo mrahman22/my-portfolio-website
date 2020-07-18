@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from '@reach/router'
+import MobileNav from './mobileNav'
 
 function Nav() {
     return (
@@ -16,6 +17,7 @@ function Nav() {
             <li>Contact</li>
             </Link>
             </ul>
+            <MobileNav />
         </nav>
     )
 }

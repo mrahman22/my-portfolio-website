@@ -18,7 +18,7 @@ nav {
 
 nav ul {
   float: right;
-  margin-right: 300px;
+  margin-right: 200px;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
@@ -38,6 +38,11 @@ nav a {
 nav a:hover {
   color: yellow;
 }
+
+.mobile-nav ul {
+  display: none;
+}
+
 
 /*================ Navbar Styling =============================*/
 
@@ -261,38 +266,22 @@ label.logo {
 
 /*==================== Media Queries =============================*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 990px) {
+
+  ul  {
+    display: none;
+  }
   .logo {
     display: flex;
-    justify-content: center; 
+  }
+ .mobile-nav ul {
+  display: block;
+  position: absolute;
+  top: 0;
+  padding: 10px;
+  right: -150px;
   }
 }
-
-
-
-
-
-@media only screen and (max-width: 1091px) {
-  .portrait-pic {
-    margin-top: 50px;
-    height: 220px;
-    width: 280px;
-    border-radius: 90%;
-    border: 5px solid white;
- }
-
-.showcase {
-  background-color: #689682;
-  padding: 80px;
-  color: white;
-  text-align: center;
-  border-bottom: 2px solid gray;
-  border-top: 2px solid gray;
-}
-
-
-}
-
 /*==================== Media Queries =============================*/
 
 
