@@ -282,14 +282,101 @@ label.logo {
   right: -150px;
   }
 }
+
+
 /*==================== Media Queries =============================*/
 
 
 
 
+@media only screen and (max-width: 1567px) {
+  
+  .main-projectList {
+    font-size: 15px;
+  }
+  .project1-pic {
+    height: 290px;
+  }
+}
+
+@media only screen and (max-width: 1295px) {
+  
+  .project1-pic {
+    float: none;
+    display: block;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  main {
+    display: block;
+    margin-top: 20px;
+    text-align: justify;
+    padding: 10px;
+  }
+  .projectsList p {
+    margin-left: 0px;
+  }
+  
+  .projectsList h3 {
+    margin-left: 0px;
+  }
+  
+  .projectsList h4 {
+    margin-left: 0px;
+  }
+  .btns {
+    margin-left: 0px;
+    text-align: center;
+  }
+  
+  
+}
 
 
 
+
+/* 
+
+
+.projectslist-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.projectsList {
+  border-bottom: 2px solid gray;
+  margin: 5px;
+  padding: 20px;
+  width: 70%;
+}
+
+.projectsList p {
+  margin-left: 330px;.projectsList button {
+  margin: 5px 3px;
+  width: 100px;
+  border-color: black;
+}
+}
+
+.projectsList h3 {
+  margin-left: 330px;
+}
+
+.projectsList h4 {
+  margin-left: 330px;
+}
+
+.projectsList button {
+  margin: 5px 3px;
+  width: 100px;
+  border-color: black;
+}
+
+.btns {
+  margin-left: 330px;
+} */
 
 
 

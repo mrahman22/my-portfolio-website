@@ -1,14 +1,14 @@
 import React from "react";
 
-
 function Projectlist() {
   return (
-      <div>
-        <img
-          className="project1-pic"
-          src={require("../portrait.jpeg")}
-          alt="portrait"
-        />
+    <div className="main-projectList">
+      <img
+        className="project1-pic"
+        src={require("../portrait.jpeg")}
+        alt="portrait"
+      />
+      <main className="project-info">
         <h3>NC NEWS</h3>
         <p>
           This is frontend project that has been created using JavaScript along
@@ -25,7 +25,8 @@ function Projectlist() {
         </p>
         <h4>Tech Stack</h4>
         <p>JavaScript, React, Axios, Reach-Router, HTML, CSS, Moment.JS</p>
-      </div>
+      </main>
+    </div>
   );
 }
 
