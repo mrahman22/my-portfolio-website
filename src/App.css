@@ -74,6 +74,7 @@ label.logo {
   background-color: #689682;
   padding: 50px;
   color: white;
+  font-size: 20px;
   text-align: center;
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
@@ -105,9 +106,12 @@ label.logo {
 
 .about-me h3 {
   padding: 10px 0;
+  font-size: 25px;
+  color: #689682;
 }
 .about-me p {
   margin-top: 10px;
+  font-size: 18px;
 }
 .red {
   color: red;
@@ -115,16 +119,16 @@ label.logo {
 
 
 .about-me {
-   margin: 10px 40px;
-   padding: 50px;
+   margin: 0px 40px;
+   padding: 20px;
    text-align: justify;
 }
 
 .underline {
-  padding-top: 10px;
+  padding-top: 25px;
   align-self: center;
-  border-bottom: 2px solid gray;
-  width: 70%;
+  border-bottom: 3px solid gray;
+  width: 60%;
 }
 
 /*==================== About-me Styling =============================*/
