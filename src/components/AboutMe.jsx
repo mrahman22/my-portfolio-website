@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "./Footer";
 
 function AboutMe() {
   return (
@@ -37,6 +38,8 @@ function AboutMe() {
           this section can provide clear evidence of the skills that I have
           developed over time.
         </p>
+        <p className="underline"></p>
+        <Footer />
       </div>
     </div>
   );

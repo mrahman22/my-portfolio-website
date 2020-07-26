@@ -8,7 +8,7 @@ function Home() {
         <div>
             <Showcase />
             <AboutMe />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
