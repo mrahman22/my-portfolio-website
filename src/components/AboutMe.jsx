@@ -6,15 +6,36 @@ function AboutMe() {
       <div className="about-me">
         <h3>About Me</h3>
         <p>
-          Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book. It has survived not only five centuries,
-          but also the leap into electronic typesetting, remaining essentially
-          unchanged. It was popularised in the 1960s with the release of
-          Letraset sheets containing Lorem Ipsum passages, and more recently
-          with desktop publishing software like Aldus PageMaker including
-          versions of Lorem Ipsum
+          Hi, thank you for visiting my portfolio wesbite. I am junior software
+          developer open to new opportunities.
+        </p>
+        <p>
+          After years of spending my life in jobs that I wasn't truly passionate
+          about I decided to dip my toes into software developement on the
+          advice from my father inlaw. I used my time in the evenings after work
+          to work through some basic tutorials on HTML and CSS on Youtube. From
+          there I purchased a course on Udemy which allowed me to further my
+          knowledge with HTML and CSS. Once I was comfortable with HTML and CSS I repeated the
+          same process with JavaScript. After only a few weeks of learning
+          JavaScript I knew I had found something I truly enjoyed doing.
+        </p>
+        <p>
+          Once I confident programming was going to play a big role in my future, I
+          decided that I was going to enroll at Northcoders bootcamp in January
+          2020. I learnt more about JavaScript fundamentals and testing with
+          mocha and chai. I learnt how to build REST API's. I learnt how to
+          create SQL databases. I build front-end projects for all the backend
+          projects I created, including mobile applications using react-native and AWS.
+        </p>
+        <p>
+          I do have other passions than just coding though! I am a keen runner and
+          can be found pounding the pavement most mornings. I also enjoy going
+          out for hiking and walking with family and friends.
+        </p>
+        <p className="red">
+          Please don't leave without having a look at my projects section. I hope
+          this section can provide clear evidence of the skills that I have
+          developed over time.
         </p>
       </div>
     </div>

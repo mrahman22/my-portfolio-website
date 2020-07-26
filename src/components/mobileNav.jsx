@@ -1,27 +1,27 @@
 import React from "react";
 import { Link } from "@reach/router";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import {
-  faTwitter,
-  faGithub,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+  faHome,
+  faAddressCard,
+} from "@fortawesome/free-solid-svg-icons";
 
 function MobileNav() {
   return (
-      <nav className="mobile-nav">
-        <ul>
-          <Link to={"/"}>
-            <FontAwesomeIcon className="twitter-icon" icon={faTwitter} />
-          </Link>
-          <Link to={"/projects"}>
-            <FontAwesomeIcon className="github-icon" icon={faGithub} />
-          </Link>
-          <Link to={"/contact"}>
-            <FontAwesomeIcon className="linkedin-icon" icon={faLinkedin} />
-          </Link>
-        </ul>
-      </nav>
+    <nav className="mobile-nav">
+      <ul>
+        <Link to={"/"}>
+          <FontAwesomeIcon className="twitter-icon" icon={faHome} />
+        </Link>
+        <Link to={"/projects"}>
+          <FontAwesomeIcon className="github-icon" icon={faGithub} />
+        </Link>
+        <Link to={"/contact"}>
+          <FontAwesomeIcon className="linkedin-icon" icon={faAddressCard} />
+        </Link>
+      </ul>
+    </nav>
   );
 }
 
