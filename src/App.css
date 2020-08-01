@@ -76,8 +76,8 @@ label.logo {
   color: white;
   font-size: 20px;
   text-align: center;
-  border-bottom: 2px solid gray;
-  border-top: 2px solid gray;
+  border-bottom: 4px solid gray;
+  border-top: 4px solid gray;
 }
 
 .portrait-pic {
@@ -124,11 +124,10 @@ label.logo {
    text-align: justify;
 }
 
-.underline {
+.underline  {
   padding-top: 25px;
-  align-self: center;
   border-bottom: 3px solid gray;
-  width: 60%;
+  width: 50%;
 }
 
 /*==================== About-me Styling =============================*/
@@ -224,7 +223,7 @@ label.logo {
 .project1-pic {
   height: 250px;
   width: 300px;
-  border: 5px solid gray;
+  border: 2px solid gray;
   align-content: center;
   float: left;
 }
@@ -236,7 +235,7 @@ label.logo {
 }
 
 .projectsList {
-  border-bottom: 5px solid gray;
+  border-bottom: 2px solid gray;
   font-size: 20px;
   margin: 5px;
   padding: 20px;
@@ -254,15 +253,15 @@ label.logo {
 .projectsList h4 {
   margin-left: 330px;
 }
-
-.projectsList button {
-  margin: 5px 3px;
-  width: 100px;
-  border-color: black;
+.btns-container {
+  margin-top: 25px;
+  text-align: center
 }
-
-.btns {
-  margin-left: 330px;
+.btns-container button {
+  margin: 10px;
+  width: 150px;
+  height: 25px;
+  border-color: black;
 }
 
 

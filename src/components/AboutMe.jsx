@@ -21,11 +21,11 @@ function AboutMe() {
           JavaScript I knew I had found something I truly enjoyed doing.
         </p>
         <p>
-          Once I confident programming was going to play a big role in my future, I
+          Once I was confident programming was going to play a big role in my future, I
           decided that I was going to enroll at Northcoders bootcamp in January
           2020. I learnt more about JavaScript fundamentals and testing with
           mocha and chai. I learnt how to build REST API's. I learnt how to
-          create SQL databases. I build front-end projects for all the backend
+          create SQL databases. I built front-end projects for all the backend
           projects I created, including mobile applications using react-native and AWS.
         </p>
         <p>

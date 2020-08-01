@@ -17,9 +17,6 @@ function Projects() {
       <div className="projectslist-container">
         <div className="projectsList">
           <ProjectList />
-          <div className="btns">
-          <Buttons />
-          </div>
         </div>
       </div>
     </>

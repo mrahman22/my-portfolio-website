@@ -1,4 +1,5 @@
 import React from "react";
+import Buttons from "./Button";
 
 function Projectlist() {
   return (
@@ -25,6 +26,9 @@ function Projectlist() {
         </p>
         <h4>Tech Stack</h4>
         <p>JavaScript, React, Axios, Reach-Router, HTML, CSS, Moment.JS</p>
+        <div className="btns-container">
+        <Buttons />
+        </div>
       </main>
     </div>
   );
