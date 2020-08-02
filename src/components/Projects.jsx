@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectList from "./ProjectList";
-import Buttons from "./Button";
+
 
 function Projects() {
   return (
@@ -14,11 +14,9 @@ function Projects() {
           </p>
         </div>
       </div>
-      <div className="projectslist-container">
         <div className="projectsList">
           <ProjectList />
         </div>
-      </div>
     </>
   );
 }

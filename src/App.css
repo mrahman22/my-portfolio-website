@@ -179,7 +179,7 @@ label.logo {
 
 
 
-/*==================== Projects Styling =============================*/
+/*==================== Project Showcase Styling =============================*/
 
 
 .projects-container {
@@ -207,7 +207,7 @@ label.logo {
 }
 
 
-/*==================== Projects Styling =============================*/
+/*==================== Project Showcase Styling =============================*/
 
 
 
@@ -224,17 +224,16 @@ label.logo {
   height: 250px;
   width: 300px;
   border: 2px solid gray;
-  align-content: center;
   float: left;
 }
 
-.projectslist-container {
+.project1 {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
-  margin-top: 30px;
 }
 
-.projectsList {
+.project-info {
   border-bottom: 2px solid gray;
   font-size: 20px;
   margin: 5px;
@@ -242,15 +241,11 @@ label.logo {
   width: 70%;
 }
 
-.projectsList p {
+.project-info p {
   margin-left: 330px;
 }
 
-.projectsList h3 {
-  margin-left: 330px;
-}
-
-.projectsList h4 {
+.project-info h4 {
   margin-left: 330px;
 }
 .btns-container {
