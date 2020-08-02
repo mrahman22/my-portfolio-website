@@ -17,7 +17,7 @@ function MobileNav() {
         <Link to={"/projects"}>
           <FontAwesomeIcon className="github-icon" icon={faGithub} />
         </Link>
-        <Link to={"/contact"}>
+        <Link to={"/contacts"}>
           <FontAwesomeIcon className="linkedin-icon" icon={faAddressCard} />
         </Link>
       </ul>

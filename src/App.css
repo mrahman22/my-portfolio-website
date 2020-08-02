@@ -76,6 +76,8 @@ label.logo {
   color: white;
   font-size: 20px;
   text-align: center;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
 }
 
 .portrait-pic {
