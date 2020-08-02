@@ -76,8 +76,6 @@ label.logo {
   color: white;
   font-size: 20px;
   text-align: center;
-  border-bottom: 4px solid gray;
-  border-top: 4px solid gray;
 }
 
 .portrait-pic {
@@ -125,8 +123,8 @@ label.logo {
 }
 
 .underline  {
-  padding-top: 25px;
-  border-bottom: 3px solid gray;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
   width: 50%;
 }
 
