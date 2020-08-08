@@ -5,7 +5,9 @@ import MobileNav from './mobileNav'
 function Nav() {
     return (
         <nav>
+            <Link to={"/"}>
             <label className="logo">Mustabur Rahman</label>
+            </Link>
             <ul>
             <Link to={"/"}>
             <li>Home</li>

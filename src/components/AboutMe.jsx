@@ -39,7 +39,7 @@ function AboutMe() {
           developed over time.
         </p>
         <p className="underline"></p>
-        <Footer />
+      <Footer />
       </div>
     </div>
   );

@@ -244,10 +244,13 @@ label.logo {
 
 .project-info p {
   margin-left: 330px;
+  text-align: justify;
 }
 
 .project-info h4 {
   margin-left: 330px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .btns-container {
   margin-top: 25px;
@@ -258,6 +261,10 @@ label.logo {
   width: 150px;
   height: 25px;
   border-color: black;
+}
+
+.project-text {
+  margin-top: 5px;
 }
 
 
@@ -426,6 +433,7 @@ label.logo {
 
 
 
+
 @media only screen and (max-width: 1567px) {
   
   .main-projectList {
@@ -435,6 +443,43 @@ label.logo {
     height: 290px;
   }
 }
+
+@media only screen and (max-width: 1289px) {
+  
+  .project-text {
+    margin-top: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 545px) {
+  
+  .project-info {
+    border: 1px solid gray;
+    box-shadow: 5px 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1295px) {
   
@@ -466,56 +511,18 @@ label.logo {
     margin-left: 0px;
     text-align: center;
   }
+    
+}
+
+
+@media only screen and (max-width: 491px) {
   
-  
+  .about-me {
+    border: 1px solid gray;
+    margin-top: 20px;
+    box-shadow: 5px 5px;
+    width: 100%;
+  }
 }
-
-
-
-
-/* 
-
-
-.projectslist-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.projectsList {
-  border-bottom: 2px solid gray;
-  margin: 5px;
-  padding: 20px;
-  width: 70%;
-}
-
-.projectsList p {
-  margin-left: 330px;.projectsList button {
-  margin: 5px 3px;
-  width: 100px;
-  border-color: black;
-}
-}
-
-.projectsList h3 {
-  margin-left: 330px;
-}
-
-.projectsList h4 {
-  margin-left: 330px;
-}
-
-.projectsList button {
-  margin: 5px 3px;
-  width: 100px;
-  border-color: black;
-}
-
-.btns {
-  margin-left: 330px;
-} */
-
-
-
 
 
