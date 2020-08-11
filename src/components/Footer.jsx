@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div className="footer-container">
         <footer className="footer">
-            <FontAwesomeIcon className="twitter-icon" icon={faTwitter}/>
+            {/* <FontAwesomeIcon className="twitter-icon" icon={faTwitter}/> */}
             <FontAwesomeIcon className="github-icon" icon={faGithub}/>
             <FontAwesomeIcon className="linkedin-icon" icon={faLinkedin} />
         </footer>
