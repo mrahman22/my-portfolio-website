@@ -7,11 +7,11 @@ function Projectlist() {
         <main className="project-info">
           <img
             className="project1-pic"
-            src={require("../portrait.jpeg")}
+            src={require("../nc-news-frontend.png")}
             alt="portrait"
           />
           <div className="project-text">
-            <h4>NC NEWS</h4>
+            <h4>NC NEWS WEBSITE - FRONT-END</h4>
             <p>
               This is frontend project that has been created using JavaScript
               along the react.JS framework. This is a reddit style wesbite that
@@ -30,7 +30,12 @@ function Projectlist() {
             <p>JavaScript, React, Axios, Reach-Router, HTML, CSS, Moment.JS</p>
           </div>
           <div className="btns-container">
-            <button>Hosted Project</button><button>Source Code</button>
+            <a href="https://mrahman-ncnews-2020.netlify.app/">
+              <button>Hosted Project</button>
+            </a>
+            <a href="https://github.com/mrahman22/frontend-proj.git">
+              <button>Source Code</button>
+            </a>
           </div>
         </main>
       </div>
@@ -38,30 +43,33 @@ function Projectlist() {
         <main className="project-info">
           <img
             className="project1-pic"
-            src={require("../portrait.jpeg")}
+            src={require("../nc-news-backend.png")}
             alt="portrait"
           />
           <div className="project-text">
-            <h4>NC NEWS</h4>
+            <h4>NC NEWS WEBSITE - BACK-END </h4>
             <p>
-              This is frontend project that has been created using JavaScript
-              along the react.JS framework. This is a reddit style wesbite that
-              allows user to read articles on a variety of topics. The data from
-              for this project has been retrievied from my own backend hosted
-              project
+              A RESTful API server developed with full TDD. Created to serve up
+              articles by topics or authors with related comments and votes
+              count. Backend to a reddit-like news site.
             </p>
             <h4>Key Features</h4>
             <p>
-              The wesbite simulate login functionality where a user needs to be
-              logged as a valid user in order to post or delete comments on
-              articles. You can upvote or downvote articles and comments. The
-              articles can sorted by topic, time, author and etc.
+              The database for the backend was creating using PostgreSQL with
+              Restful API server created using NODE.js and Express.js that takes
+              GET, PUT, PATCH and DELETE requests. The MVC (model, view,
+              controller) architecture implemented for project.
             </p>
             <h4>Tech Stack</h4>
-            <p>JavaScript, React, Axios, Reach-Router, HTML, CSS, Moment.JS</p>
+            <p>
+              Node.js, Express, Knex, PostgreSQL, Tested with Supertest, Mocha
+              and Chai
+            </p>
           </div>
           <div className="btns-container">
-          <button>Hosted Project</button><button>Source Code</button>
+            <a href="https://github.com/mrahman22/NC-news">
+              <button>Source Code</button>
+            </a>
           </div>
         </main>
       </div>
@@ -69,29 +77,31 @@ function Projectlist() {
         <main className="project-info">
           <img
             className="project1-pic"
-            src={require("../portrait.jpeg")}
+            src={require("../robin.jpg")}
             alt="portrait"
           />
           <div className="project-text">
-            <h4>NC NEWS</h4>
+            <h4>Neighborhoot</h4>
             <p>
-              This is frontend project that has been created using JavaScript
-              along the react.JS framework. This is a reddit style wesbite that
-              allows user to read articles on a variety of topics. The data from
-              for this project has been retrievied from my own backend hosted
-              project
+              This is a react-native app built with an AWS backend with my
+              fellow students at Northocoders. The purpose of this app is to
+              allow people to post bird sightings for the education and tracking
+              purposes.
             </p>
             <h4>Key Features</h4>
             <p>
-              The wesbite simulate login functionality where a user needs to be
-              logged as a valid user in order to post or delete comments on
-              articles. You can upvote or downvote articles and comments. The
-              articles can sorted by topic, time, author and etc.
+              Posting new birds sightings on the app along with an image of bird
+              which is stored on AWS backend. Sign up and logging is handled
+              using Amazon Cognito authentication. Users can see history of
+              sightings made as well delete an previous sightings or images
+              uploaded.
             </p>
             <h4>Tech Stack</h4>
-            <p>JavaScript, React, Axios, Reach-Router, HTML, CSS, Moment.JS</p>
+            <p>React-native, AWS Cognito, AWS S3 buckets, DynamoDB</p>
             <div className="btns-container">
-            <button>Hosted Project</button><button>Source Code</button>
+              <a href="https://github.com/mrahman22/NeighbourHoot">
+                <button>Source Code</button>
+                </a>
             </div>
           </div>
         </main>
