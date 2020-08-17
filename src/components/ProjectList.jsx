@@ -14,17 +14,17 @@ function Projectlist() {
             <h4>NC NEWS WEBSITE - FRONT-END</h4>
             <p>
               This is a frontend project that has been created using JavaScript
-              along with the react.JS framework. This is a reddit style wesbite that
-              allows user to read articles on a variety of topics. The data from
-              for this project has been retrievied from my own backend hosted
-              project
+              along with the react.JS framework. This is a reddit style wesbite
+              that allows user to read articles on a variety of topics. The data
+              from for this project has been retrievied from my own backend
+              hosted project
             </p>
             <h4>Key Features</h4>
             <p>
               The wesbite simulates login functionality where a user needs to be
-              logged in as a valid user in order to post or delete comments on the
-              articles. You can upvote or downvote articles and comments. The
-              articles can sorted by topic, time, author and etc.
+              logged in as a valid user in order to post or delete comments on
+              the articles. You can upvote or downvote articles and comments.
+              The articles can sorted by topic, time, author and etc.
             </p>
             <h4>Tech Stack</h4>
             <p>JavaScript, React, Axios, Reach-Router, HTML, CSS, Moment.JS</p>
@@ -101,7 +101,39 @@ function Projectlist() {
             <div className="btns-container">
               <a href="https://github.com/mrahman22/NeighbourHoot">
                 <button>Source Code</button>
-                </a>
+              </a>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div className="project1">
+        <main className="project-info">
+          <img
+            className="project1-pic"
+            src={require("../portfolio.png")}
+            alt="portrait"
+          />
+          <div className="project-text">
+            <h4>Personal Website</h4>
+            <p>
+              This project is the very wesbite you are currently on viewing. I have built
+              this website using JavaScript with React.JS framework. The website
+              has been styled using flexbox and CSS.
+            </p>
+            <h4>Key Features</h4>
+            <p>
+              This website has been solely created for purpose of demonstrating
+              and showing on projects that I have currently built. I hope to be
+              learning more exciting technologies to my toolkit and I can
+              hopefully share this with everyone. The wesbite has been hosted on
+              netlify.
+            </p>
+            <h4>Tech Stack</h4>
+            <p>React.JS, JavaScript, HTML, CSS, flexbox</p>
+            <div className="btns-container">
+              <a href="https://github.com/mrahman22/my-portfolio-website">
+                <button>Source Code</button>
+              </a>
             </div>
           </div>
         </main>
