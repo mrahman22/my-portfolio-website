@@ -116,9 +116,9 @@ function Projectlist() {
           <div className="project-text">
             <h4>Personal Website</h4>
             <p>
-              This project is the very wesbite you are currently on viewing. I have built
-              this website using JavaScript with React.JS framework. The website
-              has been styled using flexbox and CSS.
+              This project is the very wesbite you are currently on viewing. I
+              have built this website using JavaScript with React.JS framework.
+              The website has been styled using flexbox and CSS.
             </p>
             <h4>Key Features</h4>
             <p>
@@ -132,6 +132,38 @@ function Projectlist() {
             <p>React.JS, JavaScript, HTML, CSS, flexbox</p>
             <div className="btns-container">
               <a href="https://github.com/mrahman22/my-portfolio-website">
+                <button>Source Code</button>
+              </a>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div className="project1">
+        <main className="project-info">
+          <img
+            className="project1-pic"
+            src={require("../lyrics.png")}
+            alt="portrait"
+          />
+          <div className="project-text">
+            <h4>Find A Beat</h4>
+            <p>
+              Being a big fan of music and song lyrics I decided to create a
+              personal project that allows users to search for lyrics of their
+              favourite songs. This application was created using musixmatch API.
+            </p>
+            <h4>Key Features</h4>
+            <p>
+              Users can you use the search field at the top of the application
+              to type in their favourite song. This will make a get request to
+              the musixmatch API and return 10 songs by the name inputted. User
+              can then select their song and view the lyrics of their favourite
+              song.
+            </p>
+            <h4>Tech Stack</h4>
+            <p>React.JS, JavaScript, HTML, CSS, Flexbox, Moment</p>
+            <div className="btns-container">
+              <a href="https://github.com/mrahman22/getLyrics">
                 <button>Source Code</button>
               </a>
             </div>
