@@ -169,8 +169,17 @@ function Projectlist() {
               </a>
             </div>
           </div>
+        </main>
+      </div>
+      <div className="project1">
+        <main className="project-info">
+          <img
+            className="project1-pic"
+            src={require("../running.png")}
+            alt="portrait"
+          />
           <div className="project-text">
-            <h4>Mustabur's Running Revolution (To be completed soon...)</h4>
+            <h4>Mustabur's Running Revolution (To be completed...)</h4>
             <p>
               Running has been instrumental in me overcoming many difficult
               challenges that I have face in life. I want use to create a
@@ -187,7 +196,7 @@ function Projectlist() {
               more features that I will be adding to the project.
             </p>
             <h4>Tech Stack</h4>
-            <p>Node.JS, MongoDB, EJS, Nodemon, HTML, CSS,</p>
+            <p>Node.JS, MongoDB, EJS, Nodemon, HTML, CSS</p>
             <div className="btns-container">
               <a href="https://github.com/mrahman22/runningblogs">
                 <button>Source Code</button>
