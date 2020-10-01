@@ -181,22 +181,22 @@ function Projectlist() {
           <div className="project-text">
             <h4>Mustabur's Running Revolution (To be completed...)</h4>
             <p>
-              Running has been instrumental in me overcoming many difficult
-              challenges that I have face in life. I want use to create a
-              personal project where users can share experiences of how running
-              has helped them. This is also gave me the opportunity of learning
-              new technologies.
+              Running has been instrumental in helping me overcome many
+              difficult challenges that I have faced in life. I wanted to create
+              a personal project where users can share experiences of how
+              running has helped them which may in turn help others. This is
+              also gave me the opportunity of learning new technologies.
             </p>
             <h4>Key Features</h4>
             <p>
               Users are able to post, edit and delete blogs on the website. The
               project has been created with Node.js with MongDB backend. I have
-              utilised the mongoos framework to communicate with the database.
+              utilised the mongoose framework to communicate with the database.
               The front-end is rendered via the server using ejs. There many
               more features that I will be adding to the project.
             </p>
             <h4>Tech Stack</h4>
-            <p>Node.JS, MongoDB, EJS, Nodemon, HTML, CSS</p>
+            <p>Node.JS, MongoDB, Mongoose, EJS, Nodemon, HTML, CSS</p>
             <div className="btns-container">
               <a href="https://github.com/mrahman22/runningblogs">
                 <button>Source Code</button>
