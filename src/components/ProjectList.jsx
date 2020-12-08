@@ -164,6 +164,9 @@ function Projectlist() {
             <h4>Tech Stack</h4>
             <p>React.JS, JavaScript, HTML, CSS, Flexbox, Moment</p>
             <div className="btns-container">
+              <a href="https://find-a-beat.netlify.app/">
+                <button>Hosted Project</button>
+              </a>
               <a href="https://github.com/mrahman22/getLyrics">
                 <button>Source Code</button>
               </a>
@@ -179,7 +182,7 @@ function Projectlist() {
             alt="portrait"
           />
           <div className="project-text">
-            <h4>Mustabur's Running Revolution (To be completed...)</h4>
+            <h4>Mustabur's Running Revolution</h4>
             <p>
               Running has been instrumental in helping me overcome many
               difficult challenges that I have faced in life. I wanted to create
@@ -198,6 +201,43 @@ function Projectlist() {
             <h4>Tech Stack</h4>
             <p>Node.JS, MongoDB, Mongoose, EJS, Nodemon, HTML, CSS</p>
             <div className="btns-container">
+              <a href="https://github.com/mrahman22/runningblogs">
+                <button>Source Code</button>
+              </a>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div className="project1">
+        <main className="project-info">
+          <img
+            className="project1-pic"
+            src={require("../breaking-bad.png")}
+            alt="portrait"
+          />
+          <div className="project-text">
+            <h4>Breaking-Bad Project</h4>
+            <p>
+              The Breaking bad television programme is one of my all time
+              favourite shows. So when I found out an API was created that
+              allows users to fetch various information about the show I decided
+              I would create a mini-project using some of my front-end skills.
+            </p>
+            <h4>Key Features</h4>
+            <p>
+              The website allows to users to view key pieces of information on
+              all the characters from the show. I decided to practice some of my
+              newly learn css skills that rotate the image of the character and
+              the other side of the image provide personal details for the
+              character. You can also your favourite character to find our more
+              information.
+            </p>
+            <h4>Tech Stack</h4>
+            <p>JavaScript, React, Axios, Reach-Router, HTML, CSS</p>
+            <div className="btns-container">
+              <a href="https://mustabur-breaking-bad-proj.netlify.app/">
+                <button>Hosted Project</button>
+              </a>
               <a href="https://github.com/mrahman22/runningblogs">
                 <button>Source Code</button>
               </a>
