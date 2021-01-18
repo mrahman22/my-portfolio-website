@@ -91,7 +91,9 @@ label.logo {
 /*==================== Showcase Styling =============================*/
 
 
-
+.showcase {
+  font-weight: 900;
+}
 
 
 
