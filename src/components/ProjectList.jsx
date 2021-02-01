@@ -238,7 +238,7 @@ function Projectlist() {
               <a href="https://mustabur-breaking-bad-proj.netlify.app/">
                 <button>Hosted Project</button>
               </a>
-              <a href="https://github.com/mrahman22/runningblogs">
+              <a href="https://github.com/mrahman22/breaking-bad">
                 <button>Source Code</button>
               </a>
             </div>
