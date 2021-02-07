@@ -27,7 +27,7 @@ class Projectlist extends React.Component {
                 alt="portrait"
               />
               <div className="project-text">
-                <h4>NC NEWS WEBSITE - FRONT-END</h4>
+                <h4>NC News Website - Front-End</h4>
                 <p>
                   This is a frontend project that has been created using
                   JavaScript along with the react.JS framework. This is a reddit
@@ -68,7 +68,7 @@ class Projectlist extends React.Component {
                 alt="portrait"
               />
               <div className="project-text">
-                <h4>NC NEWS WEBSITE - BACK-END </h4>
+                <h4>NC News Website - Back-End </h4>
                 <p>
                   A RESTful API server developed with full TDD. Created to serve
                   up articles by topics or authors with related comments and
