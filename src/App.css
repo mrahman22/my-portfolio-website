@@ -13,6 +13,7 @@
 nav {
   width: 100%;
   height: 80px;
+  background-color: #F0FFF0;
 }
 
 
@@ -104,6 +105,7 @@ label.logo {
 .flexbox-container {
   display: flex;
   justify-content: center;
+  background-color: #F5FFFA;
 }
 
 .about-me h3 {
@@ -147,6 +149,7 @@ label.logo {
   padding: 10px;
   display: flex;
   font-size: 20px;
+  background-color: #F0FFF0;
 }
 
 .footer {
@@ -223,24 +226,25 @@ label.logo {
 
 
 .project1-pic {
-  height: 250px;
+  height: 270px;
   width: 300px;
   border: 2px solid gray;
   float: left;
 }
 
 .project1 {
-  margin-top: 20px;
+  background-color: #F5FFFA;
   margin-bottom: 20px;
   display: flex;
   justify-content: center;
+  padding: 30px;
 }
 
 .project-info {
-  border-bottom: 2px solid gray;
   font-size: 20px;
+  border-bottom: 1px solid gray;
   margin: 5px;
-  padding: 20px;
+  padding: 30px;
   width: 70%;
 }
 
@@ -250,12 +254,13 @@ label.logo {
 }
 
 .project-info h4 {
+  color: red;
   margin-left: 330px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
 .btns-container {
-  margin-top: 25px;
+  margin-top: 55px;
   text-align: center
 }
 .btns-container button {
@@ -267,6 +272,25 @@ label.logo {
 
 .project-text {
   margin-top: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.back-btn {
+  padding: 5px;
+  width: 100px;
+  margin: 5px;
+  border-color: black;
+}
+
+.forward-btn {
+  padding: 5px;
+  width: 100px;
+  margin: 5px;
+  border-color: black;
 }
 
 
