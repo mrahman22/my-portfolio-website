@@ -49,9 +49,9 @@ class Projectlist extends React.Component {
                 </p>
               </div>
               <div className="btns-container">
-                <a href="https://mrahman-ncnews-2020.netlify.app/">
+                {/* <a href="https://mrahman-ncnews-2020.netlify.app/">
                   <button>Hosted Project</button>
-                </a>
+                </a> */}
                 <a href="https://github.com/mrahman22/frontend-proj.git">
                   <button>Source Code</button>
                 </a>
@@ -192,9 +192,9 @@ class Projectlist extends React.Component {
                 <h4>Tech Stack</h4>
                 <p>React.JS, JavaScript, HTML, CSS, Flexbox, Moment</p>
                 <div className="btns-container">
-                  <a href="https://find-a-beat.netlify.app/">
+                  {/* <a href="https://find-a-beat.netlify.app/">
                     <button>Hosted Project</button>
-                  </a>
+                  </a> */}
                   <a href="https://github.com/mrahman22/getLyrics">
                     <button>Source Code</button>
                   </a>
