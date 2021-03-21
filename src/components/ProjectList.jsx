@@ -10,7 +10,7 @@ class Projectlist extends React.Component {
   };
 
   handleForward = () => {
-    if(this.state.step < 8) {
+    if (this.state.step < 9) {
       this.setState({ step: this.state.step + 1 });
     }
   };
@@ -280,7 +280,48 @@ class Projectlist extends React.Component {
             </main>
           </div>
         )}
-         {this.state.step === 8 && (
+        {this.state.step === 8 && (
+          <div className="project1">
+            <main className="project-info">
+              <img
+                className="project1-pic"
+                src={require("../recipe.png")}
+                alt="portrait"
+              />
+              <div className="project-text">
+                <h4>Food Recipe App</h4>
+                <p>
+                  A simple but very helpful front-end react app creating using
+                  the edamam API. I always find myself of struggling for ideas
+                  on what to cook for dinner, so I thought it would be great to
+                  have a app that provides you with recipes when you type in a
+                  particular ingredient.
+                </p>
+                <h4>Key Features</h4>
+                <p>
+                  I have used to this application to showcase some of the really
+                  cool features react has to offer such as hooks to manage state
+                  and useEffect which will render the page on the conditions you
+                  program in. I also wanted to practice pagination done on the
+                  frontend and finally make some use of react boot strap.
+                </p>
+                <h4>Tech Stack</h4>
+                <p>
+                  JavaScript, React, Axios, Boot-strap, HTML, CSS, React Hooks
+                </p>
+                <div className="btns-container">
+                   <a href="https://mustabur-recipe-app.netlify.app/">
+                  <button>Hosted Project</button>
+                </a>
+                  <a href="https://github.com/mrahman22/recipe-app">
+                    <button>Source Code</button>
+                  </a>
+                </div>
+              </div>
+            </main>
+          </div>
+        )}
+        {this.state.step === 9 && (
           <div className="project1">
             <main className="project-info">
               <img
@@ -303,7 +344,7 @@ class Projectlist extends React.Component {
               {"<"}
             </button>
           )}
-          {this.state.step < 8 && (
+          {this.state.step < 9 && (
             <button
               className="forward-btn"
               onClick={(e) => this.handleForward()}
